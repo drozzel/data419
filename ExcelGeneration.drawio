@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2024-09-19T15:32:53.788Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" etag="kp35_2tU2n1gDwLpkQHJ" version="24.4.3" type="device">
+  <diagram name="Page-1" id="dwn3j15BsSoUQBBANi4S">
+    <mxGraphModel dx="1433" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-1" value="CSV file is generated via API triggered by the user." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF704D;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DjsTjgAkmL74fKY2VdZU-1" target="DjsTjgAkmL74fKY2VdZU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="120" as="sourcePoint" />
+            <mxPoint x="450" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-3" value="User uploads base CSV files in a specified folder." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF704D;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="DjsTjgAkmL74fKY2VdZU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="180" as="sourcePoint" />
+            <mxPoint x="590" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-6" value="User triggers Python script. Providing the raw data folder and output folder locations." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF704D;" vertex="1" parent="1">
+          <mxGeometry x="320" y="215" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="DjsTjgAkmL74fKY2VdZU-8" source="DjsTjgAkmL74fKY2VdZU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="300" as="sourcePoint" />
+            <mxPoint x="730" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="385" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-8" value="A pivot table is generated for each report type." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF26E9;" vertex="1" parent="1">
+          <mxGeometry x="460" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="DjsTjgAkmL74fKY2VdZU-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="380" as="sourcePoint" />
+            <mxPoint x="870" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-10" value="A blank workbook is generated, each pivot table is added and formatting is adjusted." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF26E9;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="DjsTjgAkmL74fKY2VdZU-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="480" as="sourcePoint" />
+            <mxPoint x="990" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-13" value="Each workbook is uploaded to the user specified output folder." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF26E9;" vertex="1" parent="1">
+          <mxGeometry x="720" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF704D;" vertex="1" parent="1">
+          <mxGeometry x="480" y="50" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF26E9;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-16" value="Handled by the User" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="50" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DjsTjgAkmL74fKY2VdZU-18" value="Handled by the Script" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="110" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
